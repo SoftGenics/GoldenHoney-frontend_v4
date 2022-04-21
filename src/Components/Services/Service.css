@@ -1,0 +1,102 @@
+.service {
+    margin-top: 5rem;
+
+}
+.service .row {
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.service h2 {
+    position: relative;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+.service h2 span{
+color: #be975b;
+text-shadow: 0px 0px 1px black;
+position: relative;
+}
+.service h2 span::after {
+    content:'';
+    height:3px;
+    width:100%;
+    background: #be975b;
+    position:absolute;
+    left:calc(50% - 50%);
+    bottom:-5px;
+}
+.service .row .col-6 {
+    padding: 0.8rem;
+
+}
+.service .card {
+    background-color: #d4b079;
+    width: 80%;
+}
+.service .card img {
+    padding: 0.1rem;
+    height: 60vh;
+ 
+    
+}
+.service .col-6 .card-img-overlay .card-title {
+    position: absolute;
+    top: 10px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(236, 232, 220) !important;
+    text-shadow: 0px 0px 4px black;
+
+}
+.service .col-6 .card-img-overlay {
+
+    height: 60%;
+}
+h5 .card-title{
+        text-align: center;
+}
+.service .col-6 .card .card-body a button {
+    background-color: #d4b079;
+    border: 3px solid #fff;
+    float: right;
+    border-radius: 10px;
+}
+.service .col .card .card-body a button:hover{
+    background-color: #fffbf6 !important;
+    border: 3px solid rgb(27, 26, 26) ;
+}
+
+
+@media (max-width: 493px) {
+    .service .card-body .btn {
+        font-size: 8px;
+    }
+}
+@media (max-width: 912px) {
+    .service .card img {
+        height: 24vh;
+        
+    }
+    .service .col-6 {
+        padding: 0rem;
+    }
+}
+@media (max-width: 792px) {
+    .service {
+        margin-top: 1rem;
+    }
+    .service .col-6 .card-img-overlay .card-title  {
+        font-size: 18px;
+    }
+    .service .card {
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,11 @@
+.about {
+    margin-top: 15rem;
+}
+.about .col-first {
+    background-color: black;
+}
+@media(max-width: 768px){
+    .about {
+        margin-top: 10rem;
+    }
+}

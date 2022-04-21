@@ -1,0 +1,92 @@
+.copyright{
+    background-color:goldenrod;
+    color: black;
+    
+}
+.completeFooter{
+    background: black;
+    color: white;
+}
+.footerPhone{
+    height: 2%;
+    width: 2%;
+}
+.AboutSoftgenics{
+    font-weight: bolder;
+    font-family: 'Noto Sans JP,Helvetica,Arial,sans-serif';
+     
+}
+.OurOffices{
+    font-family: 'Noto Sans JP,Helvetica,Arial,sans-serif';
+    font-weight: bold;
+    color: rgb(242, 250, 249);
+    text-decoration-line:underline;
+    /* text-shadow: 2px 2px 3px rgb(250, 155, 13); */
+    text-align: left;
+    margin-top: 3rem;
+  
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+ 
+
+.officeName{
+    font-weight:bolder;
+    font-size:1rem;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Noto Sans JP,Helvetica,Arial,sans-serif';
+    color:white;
+}
+.f-img{
+    border-radius: 50%;
+    border-color: rgb(250, 193, 6);
+    height: 50px;
+    width: 50px;
+    margin-right: 4px; 
+    box-shadow: 1px 1px 1px goldenrod;
+    display: block;
+    
+
+}
+.f-img:hover{
+    transform: skewY(20deg);
+    
+}
+.social-foot{
+    padding: 5px;
+}
+
+.cont{
+    
+    border-radius: 50%;
+    color: goldenrod;
+    text-decoration: none;
+    
+}
+
+.cont:hover{
+    color: rgb(236, 13, 151);
+}
+.social-foot a{
+    margin: 5px;
+    font-size: xx-large;
+    color: goldenrod;
+}
+.social-foot a:hover{
+    color: rgb(233, 13, 167);
+}
+
+.foot-img{
+    height: 100px;
+    width: 80px;
+    display: inline;
+    margin: 3px;
+}
+.foot-saloon-img{
+    display: inline;
+}
+.margin-div{
+    margin-top: 3rem;
+}

@@ -1,0 +1,16 @@
+.offer {
+    margin-top: 2rem;
+}
+.offer h2 span {
+    color: #be975b;
+    position: relative;
+}
+.offer h2 span::after {
+    content:'';
+    height:3px;
+    width:90%;
+    background: #be975b;
+    position:absolute;
+    left:calc(50% - 50%);
+    bottom:-5px;
+}
